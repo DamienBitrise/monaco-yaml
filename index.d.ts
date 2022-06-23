@@ -9,7 +9,7 @@ export interface SchemasSettings {
    * @example '.gitlab-ci.yml'
    * @example 'file://**\/.github/actions/*.yaml'
    */
-  fileMatch: string[];
+  fileMatch?: string[];
 
   /**
    * The JSON schema which will be used for validation. If not specified, it will be downloaded from
